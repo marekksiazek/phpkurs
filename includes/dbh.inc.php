@@ -17,7 +17,7 @@ $mysqli->set_charset("utf8mb4");
 //     die("Connection failed: " . $e->getMessage());
 // }
 
-if($mysqli->connect_errno) {
+if ($mysqli->connect_errno) {
     echo "Failed to connect to MySQL: " . $mysqli->connect_error;
     exit();
 };

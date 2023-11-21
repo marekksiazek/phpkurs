@@ -27,7 +27,8 @@ require_once 'includes/register_view.inc.php';
         <div class="modal_body">
             <div class="flex_wrap">
                 <div class="form_wrap">
-                    <form id="form" class="form" action="/includes/register.inc.php" method="post" novalidate="novalidate">
+                    <form id="form" class="form" action="/includes/register.inc.php" method="post"
+                        novalidate="novalidate">
                         <div class="text_wrap">
                             <div class="title">Witaj!</div>
                             <div class="subtitle">Stwórzmy Twoje konto</div>
@@ -73,12 +74,6 @@ require_once 'includes/register_view.inc.php';
                             <button type="submit" class="submit">Zarejestruj i zapłać za kurs</button>
                         </div>
                     </form>
-                  
-                    
-                    <?php
-                    checkRegisterErrors();
-                    var_dump($_POST)
-                    ?>
                 </div>
                 <div class="end_wrap">
                     <div class="img_wrap">

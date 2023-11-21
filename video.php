@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pl">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,14 +10,15 @@
     <link rel="stylesheet" href="/css/phoneMenu.css">
     <title>Wideo - Kurs na opiekuna</title>
 </head>
+
 <body>
     <div class="nav_wrap">
         <nav class="navigation" data-aos="fade-right">
             <img src="assets/color1/icon/white_icon_color1_background.png" alt="cours_logo" class="cours_logo">
             <ul class="navigation_list">
-                <li class="nav_item"><a href="index.html#about_us">O kursie</a></li>
-                <li class="nav_item"><a href="index.html#about_course">Program kursu</a></li>
-                <li class="nav_item"><a href="index.html#contact">Kontakt</a></li>
+                <li class="nav_item"><a href="index.php#about_us">O kursie</a></li>
+                <li class="nav_item"><a href="index.php#about_course">Program kursu</a></li>
+                <li class="nav_item"><a href="index.php#contact">Kontakt</a></li>
             </ul>
         </nav>
     </div>
@@ -25,9 +27,9 @@
         </button>
         <div class="menu">
             <nav>
-                <a href="index.html#about_us" style="animation-delay: 0.2s;">O kursie</a>
-                <a href="index.html#about_course" style="animation-delay: 0.3s;">Program kursu</a>
-                <a href="index.html#contact" style="animation-delay: 0.4s;">Kontakt</a>
+                <a href="index.php#about_us" style="animation-delay: 0.2s;">O kursie</a>
+                <a href="index.php#about_course" style="animation-delay: 0.3s;">Program kursu</a>
+                <a href="index.php#contact" style="animation-delay: 0.4s;">Kontakt</a>
             </nav>
         </div>
     </div>
@@ -57,4 +59,5 @@
     </div>
     <script src="/scripts/app.js" type="text/javascript"></script>
 </body>
+
 </html>

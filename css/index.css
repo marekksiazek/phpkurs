@@ -183,6 +183,33 @@ body {
     text-align: center;
 }
 
+.download {
+    width: 100%;
+    margin-top: 1rem;
+    padding: 3rem;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.download > a {
+    display: block;
+    font-size: 1.2rem;
+    font-weight: 600;
+    padding: .5rem 1rem;
+    color: #e6f5f6;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    position: relative;
+    background-color: #db3eb1;
+    border-radius: 20px;
+}
+
+.download > a + a {
+    margin: 0 3rem;
+}
+
 .footer_background {
     width: 100%;
 }
@@ -196,6 +223,63 @@ body {
     height: 100%;
 }
 
+@media screen and (max-width: 1539px) { 
+
+    body {
+        max-width: 95vw;
+    }
+    
+    .navigation ul li a {
+        font-size: 0.9rem;
+    }
+
+    .navigation ul li button {
+        line-height: 1rem;
+        font-size: 0.9rem;
+    }
+
+    .navigation_list > li + li {
+        margin-left: 0.6rem;
+    }
+}
+
+@media screen and (max-width: 1160px) {
+    .download > a {
+        font-size: 1rem;
+        letter-spacing: 1px;
+    }
+
+    .download > a + a {
+        margin: 0 2rem;
+    }
+
+
+}
+
+
+@media screen and (max-width: 1120px) { 
+
+    body {
+        max-width: 95vw;
+    }
+    
+    .navigation ul li a {
+        font-size: 0.8rem;
+    }
+
+    .navigation ul li button {
+        line-height: 1rem;
+        font-size: 0.8rem;
+    }
+
+    .navigation_list > li + li {
+        margin-left: 0.5rem;
+    }
+
+
+}
+
+
 @media screen and (max-width: 1081px) { 
 
     body {
@@ -203,16 +287,16 @@ body {
     }
     
     .navigation ul li a {
-        font-size: 1rem;
+        font-size: 0.8rem;
     }
 
     .navigation ul li button {
-        line-height: 1.2rem;
-        font-size: 1rem;
+        line-height: 1rem;
+        font-size: 0.8rem;
     }
 
     .navigation_list > li + li {
-        margin-left: 0.75rem;
+        margin-left: 0.5rem;
     }
 
     .text_div {
@@ -239,7 +323,56 @@ body {
 
 }
 
-@media screen and (max-width: 811px) {
+@media screen and (max-width: 970px) {
+    .download > a {
+        font-size: 0.9rem;
+    }
+
+    .download > a + a {
+        margin: 0 1rem;
+    }
+
+
+}
+
+@media screen and (max-width: 912px) { 
+
+    body {
+        max-width: 95vw;
+    }
+    
+    .navigation ul li a {
+        font-size: 0.7rem;
+    }
+
+    .navigation ul li button {
+        line-height: 0.9rem;
+        font-size: 0.7rem;
+    }
+
+    .navigation_list > li + li {
+        margin-left: 0.4rem;
+    }
+}
+
+@media screen and (max-width: 843px) {
+
+    body {
+        max-width: 95vw;
+    }
+    
+    .navigation ul li a {
+        font-size: 0.6rem;
+    }
+
+    .navigation ul li button {
+        line-height: 0.8rem;
+        font-size: 0.6rem;
+    }
+
+    .navigation_list > li + li {
+        margin-left: 0.3rem;
+    }
 
     .cours_logo {
         max-width: 15vw;
@@ -283,6 +416,14 @@ body {
     .main_right ul {
         font-size: 0.5rem;
         line-height: 0.8rem;
+    }
+
+    .download > a {
+        font-size: 0.5rem;
+    }
+
+    .download > a + a {
+        margin: 0 0.5rem;
     }
 
 

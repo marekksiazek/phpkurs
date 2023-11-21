@@ -84,6 +84,11 @@
                 </div>
             </main>
         </div>
+        <div class="download">
+            <a class="linkToGov" href="https://www.gov.pl/web/rodzina/rok-20212">Zgoda MRiPS</a>
+            <a class="downloadLink" href="/downloads/zaswiadczenie_ukonczenia.pdf">Zaświadczenie</a>
+
+        </div>
         <div class="footer_wrap">
             <footer id="contact" class="footer">
                 <div class="footer_div">
@@ -99,7 +104,8 @@
                         <p class="mail">kontakt@kursnaopiekuna.pl</p>
                         <a href="https://kursnaopiekuna.pl/" class="link">www.kursnaopiekuna.pl</a>
                     </div>
-                    <img src="assets/base/full/base_logo_transparent_background.png" alt="logo_footer" class="logo_footer">
+                    <img src="assets/base/full/base_logo_transparent_background.png" alt="logo_footer"
+                        class="logo_footer">
                 </div>
             </footer>
         </div>
@@ -107,7 +113,7 @@
     <script src="scripts/app.js" type="text/javascript"></script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
-        AOS.init();
+    AOS.init();
     </script>
 </body>
 
